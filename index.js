@@ -8,7 +8,7 @@ var b = [1, 2, 3, 4];
 var a = [1, 2, 3, 4, 5];
 // TODO should output [2,4,6,8,10]
 var res = a.map(function (item,index,ary ) {
-    return item*10;
+    return item*2;
 })
 console.log(res);
 
